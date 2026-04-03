@@ -99,7 +99,7 @@ const [open, setOpen] = useState(false);
 
   return (
 
-    <main className="relative bg-[#060010] overflow-x-hidden">
+    <main className="relative bg-[#060010] overflow-hidden">
 
       <BubbleMenu
   logo={<span style={{ fontWeight: 500 }}>17</span>}
@@ -169,7 +169,7 @@ const [open, setOpen] = useState(false);
 </div>
 </div>
 
-<div id="playlist" className="h-screen flex flex-col items-center justify-center">
+<div id="playlist" className="min-h-screen flex flex-col items-center justify-center overflow-hidden">
   <div className="mt-[50px] h-fit w-[700px] flex flex-col items-center justify-center">
     <h1 className="text-[50px] font-bold mb-4 text-white text-center font-['Marcellus']">
             Our Playlist 🎧🎵
@@ -261,13 +261,13 @@ Kalau kata Film Past Lives, semoga di kehidupan ini kita ditakdirkan untuk baren
 </div>
 
 
-<div className="h-screen flex items-center justify-center px-[150px] py-[120px] bg-[#060010] text-white">
-  <main className="bg-[#060010]">
+<div className="min-h-screen overflow-hidden flex items-center justify-center px-[150px] py-[120px] bg-[#060010] text-white">
+  
       <CarouselSection />
-    </main>
+    
     </div>
 
-    <div id="ultah" className="relative min-h-screen flex flex-col items-center justify-center">
+    <div id="ultah" className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
 
 <img
     src="/images/birthday-bg.png"
@@ -296,7 +296,7 @@ Kalau kata Film Past Lives, semoga di kehidupan ini kita ditakdirkan untuk baren
 
   </div>
 
-<footer className="h-screen bg-gradient-to-b from-[#060010] to-[#1d004d] text-white lg:py-[6.9375rem] lg:px-[10rem] md:px-[2.0625rem] md:py-[7.1875rem] px-[1rem] py-[2rem] grid place-items-center">
+<footer className="min-h-screen overflow-hidden bg-gradient-to-b from-[#060010] to-[#1d004d] text-white lg:py-[6.9375rem] lg:px-[10rem] md:px-[2.0625rem] md:py-[7.1875rem] px-[1rem] py-[2rem] grid place-items-center">
       <div className="mb-10 mx-auto flex flex-col md:flex-col lg:flex-col items-center justify-center text-center lg:text-left lg:h-[29.0625rem] w-full h-[40.25rem] md:h-[54.75rem]">
         {/* Bagian atas: Teks dan Logo */}
         <div className="flex flex-col lg:flex-row justify-between items-center w-full">
@@ -320,7 +320,7 @@ Kalau kata Film Past Lives, semoga di kehidupan ini kita ditakdirkan untuk baren
 
       {/* Copyright */}
       <div
-        className="text-[15px] text-[rgba(248,248,248,0.72)] font-franie mt-0"
+        className="text-[15px] text-[rgba(248,248,248,0.72)] font-franie mt-[10px]"
         style={{ fontWeight: "300" }}
       >
         <span className="font-bold font-['Montserrat']">Copyright ©2026 | Reza Pahlevi's Corner of Love: </span> All rights reserved, because love is the most beautiful copyright of all.🏃‍♂️

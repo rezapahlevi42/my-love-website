@@ -136,7 +136,7 @@ export default function GridGallery() {
         </div>
 
         {/* FOOTER */}
-        <footer className="h-screen bg-gradient-to-b from-[#060010] to-[#1d004d] text-white lg:py-[6.9375rem] lg:px-[10rem] md:px-[2.0625rem] md:py-[7.1875rem] px-[1rem] py-[2rem] grid place-items-center">
+        <footer className="min-h-screen overflow-hidden bg-gradient-to-b from-[#060010] to-[#1d004d] text-white lg:py-[6.9375rem] lg:px-[10rem] md:px-[2.0625rem] md:py-[7.1875rem] px-[1rem] py-[2rem] grid place-items-center">
           <div className="mb-10 mx-auto flex flex-col md:flex-col lg:flex-col items-center justify-center text-center lg:text-left lg:h-[29.0625rem] w-full h-[40.25rem] md:h-[54.75rem]">
             <div className="flex flex-col lg:flex-row justify-between items-center w-full">
               <h2 className="font-['Marcellus'] lg:text-[50px] md:text-[1.875rem] text-[1.3125rem] lg:w-[34rem] w-full text-left mt-[4.9375rem] lg:mt-0 font-semibold lg:order-1 order-2">
